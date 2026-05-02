@@ -1,0 +1,33 @@
+# Build outputs
+build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.so
+*.a
+
+# Runtime outputs
+output.txt
+*.log
+
+# Local screenshots and recordings
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# Local ARGoS source/distribution trees are not part of the coursework source.
+argos3/
+argos3-dist/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
