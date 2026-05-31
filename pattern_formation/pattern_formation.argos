@@ -31,7 +31,7 @@
         <footbot_light implementation="rot_z_only" show_rays="false" />
       </sensors>
       <!-- No required configuration -->
-      <params script="Flocking.lua" />
+      <params />
     </lua_controller>
 
   </controllers>

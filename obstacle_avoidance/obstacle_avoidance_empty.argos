@@ -23,7 +23,7 @@
         <differential_steering implementation="default" />
         <footbot_proximity implementation="default" show_rays="true" />
       </sensors>
-      <params script="Obstacle_avoidance.lua" />
+      <params />
     </lua_controller>
 
   </controllers>

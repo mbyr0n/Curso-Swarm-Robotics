@@ -32,7 +32,7 @@
         <colored_blob_omnidirectional_camera implementation="rot_z_only" medium="leds" show_rays="false" />
       </sensors>
       <!-- No required configuration -->
-      <params script="Enhancing_aggregation.lua" />
+      <params />
       <!-- Optionally, you can pass a script as a controller parameter: -->
       <!-- params script="../../src/testing/experiment/test_gripper.lua" / -->
     </lua_controller>

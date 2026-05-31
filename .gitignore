@@ -1,33 +1,31 @@
-# Build outputs
+# Local ARGoS source/build/install trees
+argos3/
+argos3-dist/
+backups/
+
+# CMake build output
 build/
-*/build/
+foraging/build/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-*.o
-*.so
-*.a
+install_manifest.txt
 
-# Runtime outputs
-output.txt
+# Generated simulation output
+foraging/output.txt
 *.log
 
-# Local screenshots and recordings
-*.jpg
-*.jpeg
-*.png
-*.mp4
-*.avi
-
-# Local ARGoS source/distribution trees are not part of the coursework source.
-argos3/
-argos3-dist/
+# Compiled binaries and libraries
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
 
 # Editor and OS files
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
 .vscode/
 .idea/
+*~
+.DS_Store

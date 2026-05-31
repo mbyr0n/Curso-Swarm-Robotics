@@ -23,7 +23,7 @@
         <differential_steering implementation="default" />
         <footbot_proximity implementation="default" show_rays="true" />
       </sensors>
-      <params script="ballistic_motion.lua" />
+      <params />
     </lua_controller>
 
   </controllers>
